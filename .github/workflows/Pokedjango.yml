@@ -1,0 +1,37 @@
+name: PokéDjango!
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    env:
+      PIPENV_VENV_IN_PROJECT: 1
+      PIPENV_NO_INHERIT: 1
+      PIPENV_IGNORE_VIRTUALENVS: 1
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.9
+
+      - name: Install dependencies
+        run: |
+          pip install pipenv
+          pipenv sync --dev
+
+      - name: Copiar Configurações .env
+        run: |
+          cp contrib/env-sample .env
+
+      - name: Flake8
+        uses: py-actions/flake8@v1
+        with:
+          checkName: 'flake8_py3'

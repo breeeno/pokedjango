@@ -9,6 +9,7 @@ djangorestframework = "*"
 python-decouple = "*"
 routers = "*"
 pillow = "*"
+flake8 = "*"
 
 [dev-packages]
 

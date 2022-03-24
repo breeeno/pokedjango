@@ -23,7 +23,7 @@ from pokemon.api.viewsets import PokemonViewSet
 from tipo.api.viewsets import TipoViewSet
 
 router = routers.DefaultRouter()
-router.register(r'pokemon', PokemonViewSet, basename='Pokemon')
+router.register(r'pokemon', PokemonViewSet)
 router.register(r'tipo', TipoViewSet)
 
 

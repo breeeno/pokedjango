@@ -1,18 +1,31 @@
 import pytest
 from django.shortcuts import resolve_url
 from pokemon.models import Pokemon
-from tipo.models import Elementos
+from tipo.models import Elemento
 
 
 @pytest.fixture
-def fogo(db):
-    return Elementos.objects.create(elemento='fogo')
+def grama(db):
+    return Elemento.objects.create(nome='grama')
 
 
-def test_pokemon_create(rest_client, fogo: Elementos):
+@pytest.fixture
+def pokemon(db, grama):
+    p = Pokemon.objects.create(nome='bulbasaur')
+    p.elemento.add(grama)
+    return p
+
+
+@pytest.fixture
+def pokemon_new(db, rest_client):
+    pokemon_new = rest_client.patch('pokemon-detail', {'nome': 'voador'}, format='json')
+    return pokemon_new
+
+
+def test_pokemon_create(rest_client, grama: Elemento):
     data = {
-        'nome': 'Pikachu',
-        'elemento': [fogo.pk],
+        'nome': 'Bulbasaur',
+        'elemento': [grama.pk],
     }
     response = rest_client.post(resolve_url('pokemon-list'), data=data, format='json')
 
@@ -20,37 +33,20 @@ def test_pokemon_create(rest_client, fogo: Elementos):
     assert Pokemon.objects.count() == 1
 
 
-def test_pokemon_delete(rest_client, fogo: Elementos):
+def test_pokemon_delete(rest_client, pokemon: Pokemon, grama: Elemento):
     data = {
-        'nome': 'Pikachu',
-        'elemento': [fogo.pk],
+        'nome': [pokemon.pk],
+        'elemento': [grama.pk],
     }
-    response = rest_client.delete(resolve_url('pokemon/1/'), data=data, format='json')
-
-    assert response.status_code == 404
-    assert Pokemon.objects.count() == 0
+    response = rest_client.delete(resolve_url('pokemon-detail', pk=pokemon.pk), data=data, format='json')
+    assert response.status_code == 204
 
 
-@pytest.fixture
-def pkm(db, rest_client):
-    pkm = rest_client.post('pokemon-list',
-                           {'nome': 'Charmander',
-                            'elemento': 'fogo'},
-                           format='json')
-    return pkm
-
-
-def test_pokemon_get(rest_client, pkm):
-    response = rest_client.get(resolve_url('pokemon-list'), pkm=pkm, format='json')
+def test_pokemon_get(rest_client, pokemon):
+    response = rest_client.get(resolve_url('pokemon-list'), pokemon=pokemon, grama=grama, format='json')
     assert response.status_code == 200
 
 
-@pytest.fixture
-def pkm_new(db, rest_client):
-    pkm_new = rest_client.patch(resolve_url('pokemon/1/'), {'elemento': 'voador'}, format='json')
-    return pkm_new
-
-
-def test_pokemon_patch(rest_client, pkm_new):
-    response = rest_client.get(resolve_url('pokemon-list'), pkm_new=pkm_new, format='json')
+def test_pokemon_patch(rest_client, pokemon_new):
+    response = rest_client.get(resolve_url('pokemon-list'), pokemon_new=pokemon_new, format='json')
     assert response.status_code == 200

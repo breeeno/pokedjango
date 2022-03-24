@@ -10,10 +10,10 @@ python-decouple = "*"
 routers = "*"
 pillow = "*"
 flake8 = "*"
-pytest = "*"
-pytest-django = "*"
 
 [dev-packages]
+pytest = "*"
+pytest-django = "*"
 
 [requires]
 python_version = "3.9"

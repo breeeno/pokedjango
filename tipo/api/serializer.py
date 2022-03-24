@@ -1,8 +1,8 @@
 from rest_framework.serializers import ModelSerializer
-from tipo.models import Tipo
+from tipo.models import Elementos
 
 
-class TipoSerializer(ModelSerializer):
+class ElementosSerializer(ModelSerializer):
     class Meta:
-        model = Tipo
+        model = Elementos
         fields = ['id', 'elemento']

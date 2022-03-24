@@ -35,3 +35,8 @@ jobs:
         uses: py-actions/flake8@v1
         with:
           checkName: 'flake8_py3'
+
+
+      - name: Test with pytest
+        run: |
+            pipenv run pytest --no-migrations

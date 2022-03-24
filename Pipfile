@@ -10,6 +10,8 @@ python-decouple = "*"
 routers = "*"
 pillow = "*"
 flake8 = "*"
+pytest-django = "*"
+django-extensions = "*"
 
 [dev-packages]
 pytest = "*"

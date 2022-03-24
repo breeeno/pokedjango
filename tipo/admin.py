@@ -1,4 +1,4 @@
 from django.contrib import admin
-from tipo.models import Tipo
+from tipo.models import Elementos
 
-admin.site.register(Tipo)
+admin.site.register(Elementos)

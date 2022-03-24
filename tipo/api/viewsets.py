@@ -1,8 +1,8 @@
 from rest_framework import viewsets
-from tipo.api.serializer import TipoSerializer
-from tipo.models import Tipo
+from tipo.api.serializer import ElementosSerializer
+from tipo.models import Elementos
 
 
-class TipoViewSet(viewsets.ModelViewSet):
-    queryset = Tipo.objects.all()
-    serializer_class = TipoSerializer
+class ElementosViewSet(viewsets.ModelViewSet):
+    queryset = Elementos.objects.all()
+    serializer_class = ElementosSerializer

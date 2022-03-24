@@ -20,11 +20,11 @@ from django.urls import path, include
 from rest_framework import routers
 
 from pokemon.api.viewsets import PokemonViewSet
-from tipo.api.viewsets import TipoViewSet
+from tipo.api.viewsets import ElementosViewSet
 
 router = routers.DefaultRouter()
 router.register(r'pokemon', PokemonViewSet)
-router.register(r'tipo', TipoViewSet)
+router.register(r'tipo', ElementosViewSet)
 
 
 urlpatterns = [

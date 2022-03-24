@@ -38,15 +38,23 @@ def test_pokemon_delete(rest_client, pokemon: Pokemon, grama: Elemento):
         'nome': [pokemon.pk],
         'elemento': [grama.pk],
     }
-    response = rest_client.delete(resolve_url('pokemon-detail', pk=pokemon.pk), data=data, format='json')
+    response = rest_client.delete(resolve_url('pokemon-detail',
+                                  pk=pokemon.pk),
+                                  data=data,
+                                  format='json')
     assert response.status_code == 204
 
 
 def test_pokemon_get(rest_client, pokemon):
-    response = rest_client.get(resolve_url('pokemon-list'), pokemon=pokemon, grama=grama, format='json')
+    response = rest_client.get(resolve_url('pokemon-list'),
+                               pokemon=pokemon,
+                               grama=grama,
+                               format='json')
     assert response.status_code == 200
 
 
 def test_pokemon_patch(rest_client, pokemon_new):
-    response = rest_client.get(resolve_url('pokemon-list'), pokemon_new=pokemon_new, format='json')
+    response = rest_client.get(resolve_url('pokemon-list'),
+                               pokemon_new=pokemon_new,
+                               format='json')
     assert response.status_code == 200

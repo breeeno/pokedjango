@@ -1,3 +1,4 @@
+from http import HTTPStatus
 import pytest
 from django.shortcuts import resolve_url
 from pokemon.models import Pokemon
@@ -29,7 +30,7 @@ def test_pokemon_create(rest_client, grama: Elemento):
     }
     response = rest_client.post(resolve_url('pokemon-list'), data=data, format='json')
 
-    assert response.status_code == 201
+    assert response.status_code == HTTPStatus.CREATED
     assert Pokemon.objects.count() == 1
 
 
@@ -42,7 +43,7 @@ def test_pokemon_delete(rest_client, pokemon: Pokemon, grama: Elemento):
                                   pk=pokemon.pk),
                                   data=data,
                                   format='json')
-    assert response.status_code == 204
+    assert response.status_code == HTTPStatus.NO_CONTENT
 
 
 def test_pokemon_get(rest_client, pokemon):
@@ -50,11 +51,11 @@ def test_pokemon_get(rest_client, pokemon):
                                pokemon=pokemon,
                                grama=grama,
                                format='json')
-    assert response.status_code == 200
+    assert response.status_code == HTTPStatus.OK
 
 
 def test_pokemon_patch(rest_client, pokemon_new):
     response = rest_client.get(resolve_url('pokemon-list'),
                                pokemon_new=pokemon_new,
                                format='json')
-    assert response.status_code == 200
+    assert response.status_code == HTTPStatus.OK

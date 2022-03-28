@@ -7,7 +7,7 @@ from tipo.models import Elemento
 
 @pytest.fixture
 def grama(db):
-    return Elemento.objects.create(nome='grama')
+    return Elemento.objects.create(elemento='grama')
 
 
 @pytest.fixture
@@ -18,12 +18,17 @@ def pokemon(db, grama):
 
 
 @pytest.fixture
+def resp_user_logado(client_com_usuario_logado, db):
+    return resp_user_logado
+
+
+@pytest.fixture
 def pokemon_new(db, rest_client):
-    pokemon_new = rest_client.patch('pokemon-detail', {'nome': 'voador'}, format='json')
+    pokemon_new = rest_client.patch('pokemon-detail', {'elemento': 'voador'}, format='json')
     return pokemon_new
 
 
-def test_pokemon_create(rest_client, grama: Elemento):
+def test_pokemon_create(rest_client, resp_user_logado, grama: Elemento):
     data = {
         'nome': 'Bulbasaur',
         'elemento': [grama.pk],
@@ -34,7 +39,7 @@ def test_pokemon_create(rest_client, grama: Elemento):
     assert Pokemon.objects.count() == 1
 
 
-def test_pokemon_delete(rest_client, pokemon: Pokemon, grama: Elemento):
+def test_pokemon_delete(rest_client, resp_user_logado, pokemon: Pokemon, grama: Elemento):
     data = {
         'nome': [pokemon.pk],
         'elemento': [grama.pk],

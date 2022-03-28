@@ -11,6 +11,7 @@ routers = "*"
 pillow = "*"
 flake8 = "*"
 django-extensions = "*"
+model-bakery = "*"
 
 [dev-packages]
 pytest = "*"

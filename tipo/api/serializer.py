@@ -5,4 +5,4 @@ from tipo.models import Elemento
 class ElementosSerializer(ModelSerializer):
     class Meta:
         model = Elemento
-        fields = ['id', 'nome']
+        fields = ['id', 'elemento']

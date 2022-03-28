@@ -5,4 +5,4 @@ from pokemon.models import Pokemon
 class PokemonSerializer(ModelSerializer):
     class Meta:
         model = Pokemon
-        fields = ['id', 'nome', 'nome', 'sprite']
+        fields = ['id', 'nome', 'elemento', 'sprite']

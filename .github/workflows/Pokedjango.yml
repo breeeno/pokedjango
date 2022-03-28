@@ -36,7 +36,6 @@ jobs:
         with:
           checkName: 'flake8_py3'
 
-
       - name: Test with pytest
         run: |
             pipenv run pytest

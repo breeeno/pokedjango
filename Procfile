@@ -1,2 +1,2 @@
 release: python manage.py collectstatic --noinput && python manage.py migrate && python manage.py loaddata pokemon.json
-web: gunicorn webdev.wsgi --log-file -
+web: gunicorn primeirageracao.wsgi --log-file -

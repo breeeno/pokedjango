@@ -1,0 +1,1848 @@
+[
+  {
+    "model": "pokemon.pokemon",
+    "pk": 1,
+    "fields": {
+      "nome": "Bulbasaur",
+      "sprite": "sprites/bulbasaur.png",
+      "elemento": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 2,
+    "fields": {
+      "nome": "Ivysaur",
+      "sprite": "sprites/ivysaur.png",
+      "elemento": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 3,
+    "fields": {
+      "nome": "Venusaur",
+      "sprite": "sprites/venusaur.png",
+      "elemento": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 4,
+    "fields": {
+      "nome": "Charmander",
+      "sprite": "sprites/charmander.png",
+      "elemento": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 5,
+    "fields": {
+      "nome": "Charmaleon",
+      "sprite": "sprites/charmeleon.png",
+      "elemento": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 6,
+    "fields": {
+      "nome": "Charizard",
+      "sprite": "sprites/charizard.png",
+      "elemento": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 7,
+    "fields": {
+      "nome": "Squirtle",
+      "sprite": "sprites/squirtle.png",
+      "elemento": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 8,
+    "fields": {
+      "nome": "Wartortle",
+      "sprite": "sprites/wartortle.png",
+      "elemento": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 9,
+    "fields": {
+      "nome": "Blastoise",
+      "sprite": "sprites/blastoise.png",
+      "elemento": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 10,
+    "fields": {
+      "nome": "Caterpie",
+      "sprite": "sprites/caterpie.png",
+      "elemento": [
+        6
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 11,
+    "fields": {
+      "nome": "Metapod",
+      "sprite": "sprites/metapod.png",
+      "elemento": [
+        6
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 12,
+    "fields": {
+      "nome": "Butterfree",
+      "sprite": "sprites/butterfree.png",
+      "elemento": [
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 13,
+    "fields": {
+      "nome": "Weedle",
+      "sprite": "sprites/weedle.png",
+      "elemento": [
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 14,
+    "fields": {
+      "nome": "Kakuna",
+      "sprite": "sprites/kakuna.png",
+      "elemento": [
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 15,
+    "fields": {
+      "nome": "Beedril",
+      "sprite": "sprites/beedrill.png",
+      "elemento": [
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 16,
+    "fields": {
+      "nome": "Pidgey",
+      "sprite": "sprites/pidgey.png",
+      "elemento": [
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 17,
+    "fields": {
+      "nome": "Pidgeotto",
+      "sprite": "sprites/pidgeotto.png",
+      "elemento": [
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 18,
+    "fields": {
+      "nome": "Pidgeot",
+      "sprite": "sprites/pidgeot.png",
+      "elemento": [
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 19,
+    "fields": {
+      "nome": "Rattata",
+      "sprite": "sprites/rattata.png",
+      "elemento": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 20,
+    "fields": {
+      "nome": "Raticate",
+      "sprite": "sprites/raticate.png",
+      "elemento": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 21,
+    "fields": {
+      "nome": "Spearow",
+      "sprite": "sprites/spearow.png",
+      "elemento": [
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 22,
+    "fields": {
+      "nome": "Fearow",
+      "sprite": "sprites/fearow.png",
+      "elemento": [
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 23,
+    "fields": {
+      "nome": "Ekans",
+      "sprite": "sprites/ekans.png",
+      "elemento": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 24,
+    "fields": {
+      "nome": "Arbok",
+      "sprite": "sprites/arbok.png",
+      "elemento": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 25,
+    "fields": {
+      "nome": "Pikachu",
+      "sprite": "sprites/pikachu.png",
+      "elemento": [
+        8
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 26,
+    "fields": {
+      "nome": "Raichu",
+      "sprite": "sprites/raichu.png",
+      "elemento": [
+        8
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 27,
+    "fields": {
+      "nome": "Sandshrew",
+      "sprite": "sprites/sandshrew.png",
+      "elemento": [
+        9
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 28,
+    "fields": {
+      "nome": "Sandslash",
+      "sprite": "sprites/sandslash.png",
+      "elemento": [
+        9
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 29,
+    "fields": {
+      "nome": "Nidoran ♀",
+      "sprite": "sprites/nidoran-f.png",
+      "elemento": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 30,
+    "fields": {
+      "nome": "Nidorina",
+      "sprite": "sprites/nidorina.png",
+      "elemento": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 31,
+    "fields": {
+      "nome": "Nidoqueen",
+      "sprite": "sprites/nidoqueen.png",
+      "elemento": [
+        9,
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 32,
+    "fields": {
+      "nome": "Nidoran ♂",
+      "sprite": "sprites/nidoran-m.png",
+      "elemento": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 33,
+    "fields": {
+      "nome": "Nidorino",
+      "sprite": "sprites/nidorino.png",
+      "elemento": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 34,
+    "fields": {
+      "nome": "Nidoking",
+      "sprite": "sprites/nidoking.png",
+      "elemento": [
+        9,
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 35,
+    "fields": {
+      "nome": "Clefairy",
+      "sprite": "sprites/clefairy.png",
+      "elemento": [
+        10
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 36,
+    "fields": {
+      "nome": "Clefable",
+      "sprite": "sprites/clefable.png",
+      "elemento": [
+        10
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 37,
+    "fields": {
+      "nome": "Vulpix",
+      "sprite": "sprites/vulpix.png",
+      "elemento": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 38,
+    "fields": {
+      "nome": "Ninetales",
+      "sprite": "sprites/ninetales.png",
+      "elemento": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 39,
+    "fields": {
+      "nome": "Jigglypuff",
+      "sprite": "sprites/jigglypuff.png",
+      "elemento": [
+        10,
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 40,
+    "fields": {
+      "nome": "Wigglytuff",
+      "sprite": "sprites/wigglytuff.png",
+      "elemento": [
+        10,
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 41,
+    "fields": {
+      "nome": "Zubat",
+      "sprite": "sprites/zubat.png",
+      "elemento": [
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 42,
+    "fields": {
+      "nome": "Golbat",
+      "sprite": "sprites/golbat.png",
+      "elemento": [
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 43,
+    "fields": {
+      "nome": "Oddish",
+      "sprite": "sprites/oddish.png",
+      "elemento": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 44,
+    "fields": {
+      "nome": "Gloom",
+      "sprite": "sprites/gloom.png",
+      "elemento": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 45,
+    "fields": {
+      "nome": "Vileplume",
+      "sprite": "sprites/vileplume.png",
+      "elemento": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 46,
+    "fields": {
+      "nome": "Paras",
+      "sprite": "sprites/paras.png",
+      "elemento": [
+        6
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 47,
+    "fields": {
+      "nome": "Parasect",
+      "sprite": "sprites/parasect.png",
+      "elemento": [
+        1,
+        6
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 48,
+    "fields": {
+      "nome": "Venonat",
+      "sprite": "sprites/venonat.png",
+      "elemento": [
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 49,
+    "fields": {
+      "nome": "Venomoth",
+      "sprite": "sprites/venomoth.png",
+      "elemento": [
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 50,
+    "fields": {
+      "nome": "Diglett",
+      "sprite": "sprites/diglett.png",
+      "elemento": [
+        9
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 51,
+    "fields": {
+      "nome": "Dugtrio",
+      "sprite": "sprites/dugtrio.png",
+      "elemento": [
+        9
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 52,
+    "fields": {
+      "nome": "Meowth",
+      "sprite": "sprites/meowth.png",
+      "elemento": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 53,
+    "fields": {
+      "nome": "Persian",
+      "sprite": "sprites/persian.png",
+      "elemento": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 54,
+    "fields": {
+      "nome": "Psyduck",
+      "sprite": "sprites/psyduck.png",
+      "elemento": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 55,
+    "fields": {
+      "nome": "Golduck",
+      "sprite": "sprites/golduck.png",
+      "elemento": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 56,
+    "fields": {
+      "nome": "Mankey",
+      "sprite": "sprites/mankey.png",
+      "elemento": [
+        11
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 57,
+    "fields": {
+      "nome": "Primeape",
+      "sprite": "sprites/primeape.png",
+      "elemento": [
+        11
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 58,
+    "fields": {
+      "nome": "Growlithe",
+      "sprite": "sprites/growlithe.png",
+      "elemento": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 59,
+    "fields": {
+      "nome": "Arcanine",
+      "sprite": "sprites/arcanine.png",
+      "elemento": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 60,
+    "fields": {
+      "nome": "Poliwag",
+      "sprite": "sprites/poliwag.png",
+      "elemento": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 61,
+    "fields": {
+      "nome": "Poliwhirl",
+      "sprite": "sprites/poliwhirl.png",
+      "elemento": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 62,
+    "fields": {
+      "nome": "Poliwrath",
+      "sprite": "sprites/poliwrath.png",
+      "elemento": [
+        11,
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 63,
+    "fields": {
+      "nome": "Abra",
+      "sprite": "sprites/abra.png",
+      "elemento": [
+        12
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 64,
+    "fields": {
+      "nome": "Kadabra",
+      "sprite": "sprites/kadabra.png",
+      "elemento": [
+        12
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 65,
+    "fields": {
+      "nome": "Alakazam",
+      "sprite": "sprites/alakazam.png",
+      "elemento": [
+        12
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 66,
+    "fields": {
+      "nome": "Machop",
+      "sprite": "sprites/machop.png",
+      "elemento": [
+        11
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 67,
+    "fields": {
+      "nome": "Machoke",
+      "sprite": "sprites/machoke.png",
+      "elemento": [
+        11
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 68,
+    "fields": {
+      "nome": "Machamp",
+      "sprite": "sprites/machamp.png",
+      "elemento": [
+        11
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 69,
+    "fields": {
+      "nome": "Bellsprout",
+      "sprite": "sprites/bellsprout.png",
+      "elemento": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 70,
+    "fields": {
+      "nome": "Weepinbell",
+      "sprite": "sprites/weepinbell.png",
+      "elemento": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 71,
+    "fields": {
+      "nome": "Victreebel",
+      "sprite": "sprites/victreebel.png",
+      "elemento": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 72,
+    "fields": {
+      "nome": "Tentacool",
+      "sprite": "sprites/tentacool.png",
+      "elemento": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 73,
+    "fields": {
+      "nome": "Tentacruel",
+      "sprite": "sprites/tentacruel.png",
+      "elemento": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 74,
+    "fields": {
+      "nome": "Geodude",
+      "sprite": "sprites/geodude.png",
+      "elemento": [
+        9,
+        13
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 75,
+    "fields": {
+      "nome": "Graveler",
+      "sprite": "sprites/graveler.png",
+      "elemento": [
+        9,
+        13
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 76,
+    "fields": {
+      "nome": "Golem",
+      "sprite": "sprites/golem.png",
+      "elemento": [
+        9,
+        13
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 77,
+    "fields": {
+      "nome": "Ponyta",
+      "sprite": "sprites/ponyta.png",
+      "elemento": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 78,
+    "fields": {
+      "nome": "Rapidash",
+      "sprite": "sprites/rapidash.png",
+      "elemento": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 79,
+    "fields": {
+      "nome": "Slowpoke",
+      "sprite": "sprites/slowpoke.png",
+      "elemento": [
+        12,
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 80,
+    "fields": {
+      "nome": "Slowbro",
+      "sprite": "sprites/slowbro.png",
+      "elemento": [
+        12,
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 81,
+    "fields": {
+      "nome": "Magnemite",
+      "sprite": "sprites/magnemite.png",
+      "elemento": [
+        14,
+        8
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 82,
+    "fields": {
+      "nome": "Magneton",
+      "sprite": "sprites/magneton.png",
+      "elemento": [
+        8,
+        14
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 83,
+    "fields": {
+      "nome": "Farfetch'd",
+      "sprite": "sprites/farfetchd.png",
+      "elemento": [
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 84,
+    "fields": {
+      "nome": "Doduo",
+      "sprite": "sprites/doduo.png",
+      "elemento": [
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 85,
+    "fields": {
+      "nome": "Dodrio",
+      "sprite": "sprites/dodrio.png",
+      "elemento": [
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 86,
+    "fields": {
+      "nome": "Seel",
+      "sprite": "sprites/seel.png",
+      "elemento": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 87,
+    "fields": {
+      "nome": "Dewgong",
+      "sprite": "sprites/dewgong.png",
+      "elemento": [
+        5,
+        15
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 88,
+    "fields": {
+      "nome": "Grimer",
+      "sprite": "sprites/grimer.png",
+      "elemento": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 89,
+    "fields": {
+      "nome": "Muk",
+      "sprite": "sprites/muk.png",
+      "elemento": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 90,
+    "fields": {
+      "nome": "Shellder",
+      "sprite": "sprites/shellder.png",
+      "elemento": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 91,
+    "fields": {
+      "nome": "Cloyster",
+      "sprite": "sprites/cloyster.png",
+      "elemento": [
+        5,
+        15
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 92,
+    "fields": {
+      "nome": "Gastly",
+      "sprite": "sprites/gastly.png",
+      "elemento": [
+        16,
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 93,
+    "fields": {
+      "nome": "Haunter",
+      "sprite": "sprites/haunter.png",
+      "elemento": [
+        16,
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 94,
+    "fields": {
+      "nome": "Gengar",
+      "sprite": "sprites/gengar.png",
+      "elemento": [
+        16,
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 95,
+    "fields": {
+      "nome": "Onix",
+      "sprite": "sprites/onix.png",
+      "elemento": [
+        9,
+        13
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 96,
+    "fields": {
+      "nome": "Drowzee",
+      "sprite": "sprites/drowzee.png",
+      "elemento": [
+        12
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 97,
+    "fields": {
+      "nome": "Hypno",
+      "sprite": "sprites/hypno.png",
+      "elemento": [
+        12
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 98,
+    "fields": {
+      "nome": "Krabby",
+      "sprite": "sprites/krabby.png",
+      "elemento": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 99,
+    "fields": {
+      "nome": "Kingler",
+      "sprite": "sprites/kingler.png",
+      "elemento": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 100,
+    "fields": {
+      "nome": "Voltorb",
+      "sprite": "sprites/voltorb.png",
+      "elemento": [
+        8
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 101,
+    "fields": {
+      "nome": "Electrode",
+      "sprite": "sprites/electrode.png",
+      "elemento": [
+        8
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 102,
+    "fields": {
+      "nome": "Exeggcute",
+      "sprite": "sprites/exeggcute.png",
+      "elemento": [
+        1,
+        12
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 103,
+    "fields": {
+      "nome": "Exeggutor",
+      "sprite": "sprites/exeggutor.png",
+      "elemento": [
+        1,
+        12
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 104,
+    "fields": {
+      "nome": "Cubone",
+      "sprite": "sprites/cubone.png",
+      "elemento": [
+        9
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 105,
+    "fields": {
+      "nome": "Marowak",
+      "sprite": "sprites/marowak.png",
+      "elemento": [
+        9
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 106,
+    "fields": {
+      "nome": "Hitmonlee",
+      "sprite": "sprites/hitmonlee.png",
+      "elemento": [
+        11
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 107,
+    "fields": {
+      "nome": "Hitmonchan",
+      "sprite": "sprites/hitmonchan.png",
+      "elemento": [
+        11
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 108,
+    "fields": {
+      "nome": "Lickitung",
+      "sprite": "sprites/lickitung.png",
+      "elemento": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 109,
+    "fields": {
+      "nome": "Koffing",
+      "sprite": "sprites/koffing.png",
+      "elemento": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 110,
+    "fields": {
+      "nome": "Weezing",
+      "sprite": "sprites/weezing.png",
+      "elemento": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 111,
+    "fields": {
+      "nome": "Rhyhorn",
+      "sprite": "sprites/rhyhorn.png",
+      "elemento": [
+        9,
+        13
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 112,
+    "fields": {
+      "nome": "Rhydon",
+      "sprite": "sprites/rhydon.png",
+      "elemento": [
+        9,
+        13
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 113,
+    "fields": {
+      "nome": "Chansey",
+      "sprite": "sprites/chansey.png",
+      "elemento": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 114,
+    "fields": {
+      "nome": "Tangela",
+      "sprite": "sprites/tangela.png",
+      "elemento": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 115,
+    "fields": {
+      "nome": "Kangaskhan",
+      "sprite": "sprites/kangaskhan.png",
+      "elemento": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 116,
+    "fields": {
+      "nome": "Horsea",
+      "sprite": "sprites/horsea.png",
+      "elemento": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 117,
+    "fields": {
+      "nome": "Seadra",
+      "sprite": "sprites/seadra.png",
+      "elemento": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 118,
+    "fields": {
+      "nome": "Goldeen",
+      "sprite": "sprites/goldeen.png",
+      "elemento": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 119,
+    "fields": {
+      "nome": "Seaking",
+      "sprite": "sprites/seaking.png",
+      "elemento": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 120,
+    "fields": {
+      "nome": "Staryu",
+      "sprite": "sprites/staryu.png",
+      "elemento": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 121,
+    "fields": {
+      "nome": "Starmie",
+      "sprite": "sprites/starmie.png",
+      "elemento": [
+        12,
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 122,
+    "fields": {
+      "nome": "Mr. Mime",
+      "sprite": "sprites/mr-mime.png",
+      "elemento": [
+        10,
+        12
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 123,
+    "fields": {
+      "nome": "Scyther",
+      "sprite": "sprites/scyther.png",
+      "elemento": [
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 124,
+    "fields": {
+      "nome": "Jynx",
+      "sprite": "sprites/jynx.png",
+      "elemento": [
+        12,
+        15
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 125,
+    "fields": {
+      "nome": "Electabuzz",
+      "sprite": "sprites/electabuzz.png",
+      "elemento": [
+        8
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 126,
+    "fields": {
+      "nome": "Magmar",
+      "sprite": "sprites/magmar.png",
+      "elemento": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 127,
+    "fields": {
+      "nome": "Pinsir",
+      "sprite": "sprites/pinsir.png",
+      "elemento": [
+        6
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 128,
+    "fields": {
+      "nome": "Tauros",
+      "sprite": "sprites/tauros.png",
+      "elemento": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 129,
+    "fields": {
+      "nome": "Magikarp",
+      "sprite": "sprites/magikarp.png",
+      "elemento": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 130,
+    "fields": {
+      "nome": "Gyarados",
+      "sprite": "sprites/gyarados.png",
+      "elemento": [
+        5,
+        4
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 131,
+    "fields": {
+      "nome": "Lapras",
+      "sprite": "sprites/lapras.png",
+      "elemento": [
+        5,
+        14
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 132,
+    "fields": {
+      "nome": "Ditto",
+      "sprite": "sprites/ditto.png",
+      "elemento": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 133,
+    "fields": {
+      "nome": "Eevee",
+      "sprite": "sprites/eevee.png",
+      "elemento": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 134,
+    "fields": {
+      "nome": "Vaporean",
+      "sprite": "sprites/vaporeon.png",
+      "elemento": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 135,
+    "fields": {
+      "nome": "Jolteon",
+      "sprite": "sprites/jolteon.png",
+      "elemento": [
+        8
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 136,
+    "fields": {
+      "nome": "Flareon",
+      "sprite": "sprites/flareon.png",
+      "elemento": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 137,
+    "fields": {
+      "nome": "Porygon",
+      "sprite": "sprites/porygon.png",
+      "elemento": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 138,
+    "fields": {
+      "nome": "Omanyte",
+      "sprite": "sprites/omanyte.png",
+      "elemento": [
+        13,
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 139,
+    "fields": {
+      "nome": "Omastar",
+      "sprite": "sprites/omastar.png",
+      "elemento": [
+        13,
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 140,
+    "fields": {
+      "nome": "Kabuto",
+      "sprite": "sprites/kabuto.png",
+      "elemento": [
+        13,
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 141,
+    "fields": {
+      "nome": "Kabutops",
+      "sprite": "sprites/kabutops.png",
+      "elemento": [
+        13,
+        5
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 142,
+    "fields": {
+      "nome": "Aerodactyl",
+      "sprite": "sprites/aerodactyl.png",
+      "elemento": [
+        4,
+        13
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 143,
+    "fields": {
+      "nome": "Snorlax",
+      "sprite": "sprites/snorlax.png",
+      "elemento": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 144,
+    "fields": {
+      "nome": "Articuno",
+      "sprite": "sprites/articuno.png",
+      "elemento": [
+        4,
+        15
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 145,
+    "fields": {
+      "nome": "Zapdos",
+      "sprite": "sprites/zapdos.png",
+      "elemento": [
+        8,
+        4
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 146,
+    "fields": {
+      "nome": "Moltres",
+      "sprite": "sprites/moltres.png",
+      "elemento": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 147,
+    "fields": {
+      "nome": "Dratini",
+      "sprite": "sprites/dratini.png",
+      "elemento": [
+        17
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 148,
+    "fields": {
+      "nome": "Dragonair",
+      "sprite": "sprites/dragonair.png",
+      "elemento": [
+        17
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 149,
+    "fields": {
+      "nome": "Dragonite",
+      "sprite": "sprites/dragonite.png",
+      "elemento": [
+        17,
+        4
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 150,
+    "fields": {
+      "nome": "Mewtwo",
+      "sprite": "sprites/mewtwo.png",
+      "elemento": [
+        12
+      ]
+    }
+  },
+  {
+    "model": "pokemon.pokemon",
+    "pk": 151,
+    "fields": {
+      "nome": "Mew",
+      "sprite": "sprites/mew.png",
+      "elemento": [
+        12
+      ]
+    }
+  },
+ {
+    "model": "tipo.elemento",
+    "pk": 1,
+    "fields": {
+      "elemento": "Grama"
+    }
+  },
+  {
+    "model": "tipo.elemento",
+    "pk": 2,
+    "fields": {
+      "elemento": "Veneno"
+    }
+  },
+  {
+    "model": "tipo.elemento",
+    "pk": 3,
+    "fields": {
+      "elemento": "Fogo"
+    }
+  },
+  {
+    "model": "tipo.elemento",
+    "pk": 4,
+    "fields": {
+      "elemento": "Voador"
+    }
+  },
+  {
+    "model": "tipo.elemento",
+    "pk": 5,
+    "fields": {
+      "elemento": "Água"
+    }
+  },
+  {
+    "model": "tipo.elemento",
+    "pk": 6,
+    "fields": {
+      "elemento": "Inseto"
+    }
+  },
+  {
+    "model": "tipo.elemento",
+    "pk": 7,
+    "fields": {
+      "elemento": "Normal"
+    }
+  },
+  {
+    "model": "tipo.elemento",
+    "pk": 8,
+    "fields": {
+      "elemento": "Elétrico"
+    }
+  },
+  {
+    "model": "tipo.elemento",
+    "pk": 9,
+    "fields": {
+      "elemento": "Terra"
+    }
+  },
+  {
+    "model": "tipo.elemento",
+    "pk": 10,
+    "fields": {
+      "elemento": "Fada"
+    }
+  },
+  {
+    "model": "tipo.elemento",
+    "pk": 11,
+    "fields": {
+      "elemento": "Lutador"
+    }
+  },
+  {
+    "model": "tipo.elemento",
+    "pk": 12,
+    "fields": {
+      "elemento": "Psíquico"
+    }
+  },
+  {
+    "model": "tipo.elemento",
+    "pk": 13,
+    "fields": {
+      "elemento": "Pedra"
+    }
+  },
+  {
+    "model": "tipo.elemento",
+    "pk": 14,
+    "fields": {
+      "elemento": "Aço"
+    }
+  },
+  {
+    "model": "tipo.elemento",
+    "pk": 15,
+    "fields": {
+      "elemento": "Gelo"
+    }
+  },
+  {
+    "model": "tipo.elemento",
+    "pk": 16,
+    "fields": {
+      "elemento": "Fantasma"
+    }
+  },
+  {
+    "model": "tipo.elemento",
+    "pk": 17,
+    "fields": {
+      "elemento": "Dragão"
+    }
+  }
+]

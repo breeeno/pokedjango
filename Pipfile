@@ -12,6 +12,8 @@ pillow = "*"
 flake8 = "*"
 django-extensions = "*"
 model-bakery = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 pytest = "*"

@@ -11,3 +11,5 @@ Em seguida, use o comando:
 
 Visualização da api disponível em:
 https://pokemondjango.herokuapp.com
+
+![Pokedjango](https://github.com/breeeno/pokedjango/actions/workflows/Pokedjango.yml/badge.svg)

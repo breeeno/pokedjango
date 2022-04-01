@@ -1,4 +1,12 @@
-# PokéDjango!
+## PokéDjango!
+<p align="center" style="display: flex; align-items: flex-start; justify-content: right;">
+<img alt="NextLevelWeek" title="#NextLevelWeek" src="./contrib/gengar.png" width="100px">
+<img alt="NextLevelWeek" title="#NextLevelWeek" src="./contrib/kabutops.png" width=100px">
+<img alt="NextLevelWeek" title="#NextLevelWeek" src="./contrib/ninetales.png" width=100px">
+<img alt="NextLevelWeek" title="#NextLevelWeek" src="./contrib/slowbro.png" width=100px">
+<img alt="NextLevelWeek" title="#NextLevelWeek" src="./contrib/charizard.png" width=100px">
+
+---
 Api que contém os 151 pokémons da primeira geração feita usando django rest framework para estudo da ferramenta.
 
 
@@ -50,8 +58,8 @@ Visualização e edição de pokémons:
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./contrib/admin.png" width="400px">
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./contrib/pkm.png" width="400px">
 
-
-</p>Você também pode visualizar os pokémons através da API root do projeto:
+</p>
+Você também pode visualizar os pokémons através da API root do projeto:
 <p align="center" style="display: flex; align-items: flex-start; justify-content:center;">
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./contrib/root.png" width="400px">
 </p>

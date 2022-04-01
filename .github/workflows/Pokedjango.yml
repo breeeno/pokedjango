@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [ main ]
 
+jobs:
+  build:
+    env:
+
     runs-on: ubuntu-latest
 
     services:

@@ -89,5 +89,4 @@ Feito com muito carinho por  <a href="https://www.linkedin.com/in/breno-eustáqu
 Visualização da api disponível em:
 https://pokemondjango.herokuapp.com
 
-
 ![Pokedjango](https://github.com/breeeno/pokedjango/actions/workflows/Pokedjango.yml/badge.svg)
